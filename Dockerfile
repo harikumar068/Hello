@@ -38,7 +38,7 @@ RUN echo output = json >> config
 
 # Create credentials file
 RUN echo [default] >> credentials
-RUN echo aws_access_key_id = AKIAVN2SSN6DEIUDKBGV >> credentials
+RUN echo aws_access_key_id = ******************* >> credentials
 RUN echo aws_secret_access_key = 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 >> credentials
 
 # Working directory
@@ -96,7 +96,7 @@ RUN echo output = json >> config
 
 # Create credentials file
 RUN echo [default] >> credentials
-RUN echo aws_access_key_id = AKIAVN2SSN6DEIUDKBGV >> credentials
+RUN echo aws_access_key_id = ******************* >> credentials
 RUN echo aws_secret_access_key = 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 >> credentials
 
 # Working directory
